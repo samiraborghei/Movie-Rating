@@ -8,7 +8,7 @@ submitButton.addEventListener('click', function (event) {
 
     var movieTitle = document.querySelector('input[name="movie-title"]').value;
 
-    var omdbUrl = 'http://www.omdbapi.com/?apikey=31b4d588&t=' + movieTitle;
+    var omdbUrl = 'https://www.omdbapi.com/?apikey=31b4d588&t=' + movieTitle;
 
     fetch(omdbUrl)
         .then(function (response) {
