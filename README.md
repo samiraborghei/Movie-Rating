@@ -1,4 +1,4 @@
-# project-1
+# Movie-Rating
 Front-end application 
 Movie Searching Application
 Description:
